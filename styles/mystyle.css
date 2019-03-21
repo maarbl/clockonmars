@@ -1,5 +1,5 @@
 
-#Heading1, #Heading2 {
+#heading1, #heading2 {
 	position: absolute; 
 	font-family: 'Audiowide', cursive;
     text-align: center;
@@ -18,10 +18,9 @@ body {
 }
 
 p {
-    align: center;
+    text-align: center;
     font-size: 40px;
     padding-top: 230px;
-    padding-left: 30%;
     margin: 0px;
      font-family:  'Rajdhani', sans-serif;
 }

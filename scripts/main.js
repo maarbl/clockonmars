@@ -1,10 +1,10 @@
-var Heading1 = document.getElementById('Heading1');
+//var heading1 = document.getElementById('heading1');
 
 var tl1 = new TimelineMax({repeat:1000});
-tl1.to(Heading1, 5, {left: 1060, ease: Sine.ease});
+tl1.to(heading1, 5, {left: 1060, ease: Sine.ease});
 
 var tl2 = new TimelineMax({repeat:1000});
-tl2.from(Heading2, 5, {left: 1060, ease: Sine.ease});  
+tl2.from(heading2, 5, {left: 1060, ease: Sine.ease});  
 
 
 (function(){
@@ -43,15 +43,15 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 })();
 
-function myFunction() {
-    document.body.style.background = "url(https://media.freestocktextures.com/cache/7d/66/7d66ae58b2966a05ccadce0ed94723a9.jpg)";
- 	document.body.style.backgroundSize = "cover";
+function earthTheme() {
+    document.body.style.backgroundImage = "url(https://media.freestocktextures.com/cache/7d/66/7d66ae58b2966a05ccadce0ed94723a9.jpg)";
+ 	//document.body.style.backgroundSize = "cover";
  	document.body.style.color = "#E0E2DB";
 }
 
-function anotherFunction() {
-    document.body.style.background = "url(https://www.unlockthelaw.co.uk/images/mars-water.jpg)";
-    document.body.style.backgroundSize = "cover";
+function marsTheme() {
+    document.body.style.backgroundImage = "url(https://www.unlockthelaw.co.uk/images/mars-water.jpg)";
+    //document.body.style.backgroundSize = "cover";
     document.body.style.color = "#F0FFCE";
 }
 
